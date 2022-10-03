@@ -1,0 +1,47 @@
+.expenses-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4b4b4b;
+    align-items: center;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    /* border: 1px solid black; */
+}
+
+.expenses-item__details{
+    display: flex;
+    flex-direction: column-reverse;
+    color: white;
+    align-items: flex-end;
+}
+
+.expenses-item__details h2{
+    margin-right: 2rem;
+}
+
+.expenses-item__price{
+    background-color: #40004d;
+    color: white;
+    border: 2px solid #ccc;
+    padding: 1rem 3rem;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (min-width:700px) {
+    .expenses-item__details{
+        flex-direction: row;
+        /* border: 1px solid red; */
+        flex: 1;
+        justify-content: space-between;
+        margin-left: 1rem;
+    }
+
+    .expenses-item__price{
+        align-self: center;
+    }
+}

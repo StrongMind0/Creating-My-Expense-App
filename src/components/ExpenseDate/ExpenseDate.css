@@ -1,0 +1,25 @@
+.date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(40, 37, 37);
+    color: white;
+    width: 11rem;
+    height: 11rem;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.date__month{
+    font-size: 1.3rem;
+}
+
+.date__year{
+    font-size: 1.2rem;
+}
+
+.date__day{
+    font-size: 3rem;
+}
